@@ -42,9 +42,3 @@ function divisao() {
 
     result.innerHTML = ` Resultado da divisão:${divisao}`
 }
-
-
-
-
-
-
