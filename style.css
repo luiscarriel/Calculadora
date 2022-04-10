@@ -1,23 +1,41 @@
 body{
-    background-color: #e7e7e7;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-principal{
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.container{
+    padding: 50px 300px;
     text-align: center;
 }
 
-.container button{
-    margin: 10px;
+p{
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #166fe5;
 }
 
 button{
-    padding: 1rem;
-    width: 100px;
-    border: 1px solid white;
-    border-radius: 25px;
-    background-color: black;
+    padding: 0.8rem;
+    width: 150px;
+    border: none;
+    border: 1px solid #166fe5;
+    border-radius: 10px;
+    background-color: #166fe5;
     color: white;
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 5px;
 }
 
-#result{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20pt;
-    color: tomato;
+@media(max-width: 768px){
+    .container{
+        padding: 50px 80px;
+    }
 }
+
