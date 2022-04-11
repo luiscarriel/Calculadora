@@ -9,6 +9,7 @@ function adicao() {
     result.innerHTML = ` Resultado da adição: ${somar}`
 }
 
+
 // Subtração
 
 var result = document.getElementById("result")
@@ -21,6 +22,7 @@ function subtracao() {
     result.innerHTML = ` Resultado da subtração:${subtrair}`
 }
 
+
 // Multiplicação
 var result = document.getElementById("result")
 
@@ -32,6 +34,7 @@ function multiplicacao() {
     result.innerHTML = ` Resultado da multiplicação:${multiplicacao}`
 }
 
+
 // Divisão
 var result = document.getElementById("result")
 
@@ -42,3 +45,4 @@ function divisao() {
 
     result.innerHTML = ` Resultado da divisão:${divisao}`
 }
+
